@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #232323;
+  color: white;
+  font-family: Grenze Gotisch;
+  text-align: center;
+}
+button {
+  color: white;
+  background-color: #232323;
+  padding: 10px;
+  border: solid 1px white;
+  margin: 20px;
+}
+img {
+  margin: 20px 1%;
+  width: 99%;
+}
+button:hover {
+  background-color: black;
+}

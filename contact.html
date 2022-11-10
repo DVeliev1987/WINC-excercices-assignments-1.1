@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Grenze Gotisch"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="main_container2">
+      <header class="header">
+        <img src="graffiti4.jpg" class="banner" alt="Painting_on_the_Wall" />
+        <h1>Art of Vandalism</h1>
+      </header>
+      <nav class="navbar1">
+        <ul class="main_navbar1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li style="float: right"><a href="https://google.com">Google</a></li>
+        </ul>
+      </nav>
+      <main class="main">
+        <h2>Contact</h2>
+
+        <div class="flex_container">
+          <fieldset>
+            <legend><h3>Upload your best work</h3></legend>
+            <form
+              class="form1"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <h5>
+                <label
+                  >Your Name: <input type="name" placeholder="name" /><br
+                /></label>
+              </h5>
+
+              <h5>
+                <label for="Email"
+                  >Your Email: <input type="email" placeholder="email"
+                /></label>
+              </h5>
+              <br />
+
+              <h5>
+                <label for="color">
+                  Choose your favorite color:
+                  <input type="color" placeholder="choose_color"
+                /></label>
+              </h5>
+              <br />
+              <h5>
+                <label for="gender">
+                  Select your Gender:
+                  <h5>
+                    Male <input type="radio" name="gender" placeholder="Male" />
+                  </h5>
+                  <h5>
+                    Female
+                    <input type="radio" name="gender" placeholder="Female" />
+                  </h5>
+                  <h5>
+                    Unkown<input
+                      type="radio"
+                      name="gender"
+                      placeholder="Unkown"
+                    /></h5
+                ></label>
+              </h5>
+              <br />
+              <h5>
+                <label for="date_of_birth">
+                  Your Date of Birth: <input type="date" name="DOB"
+                /></label>
+              </h5>
+              <br />
+              <h5>
+                <label for="month">
+                  When was the Artwork created:
+                  <input type="month" name="month"
+                /></label>
+              </h5>
+              <br />
+              <h5>
+                <label for="upload">
+                  Upload your file here:
+                  <input type="file" id="file" name="Upload"
+                /></label>
+              </h5>
+              <br />
+              <div class="buttons">
+                <button class="submit" type="submit" value="submit">
+                  Submit
+                </button>
+                <button class="reset" type="reset" value="reset">Reset</button
+                ><br />
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </main>
+      <nav class="bottom_nav">
+        <ul class="navbar2">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="video.html">Video</a></li>
+        </ul>
+      </nav>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
